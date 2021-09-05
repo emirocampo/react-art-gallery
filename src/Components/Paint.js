@@ -1,5 +1,7 @@
 import Card from "./Card";
 import Data from "../Data/data.json"
+
+import "../Style/paint.css"
 const Paint = () => {
     const lista = Data.paints.map( (item, index) => {
         return(
@@ -11,7 +13,7 @@ const Paint = () => {
         );
     })
     return(
-        <div>            
+        <div className="grid">            
             {lista}
         </div>
     );

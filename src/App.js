@@ -3,11 +3,11 @@ import Container from "./Components/Container";
 
 //estilos
 import './App.css';
+import "./Style/container.css";
 
 function App() {
   return (
-    <div>
-      <p>hola!!!</p>
+    <div className="container">
       <Container />
     </div>
   );
